@@ -1,4 +1,5 @@
 #define MAX_STRLEN 30
+#define MAX_CLASSLEN 5
 
 struct s_elemento{
     char nome[MAX_STRLEN];
