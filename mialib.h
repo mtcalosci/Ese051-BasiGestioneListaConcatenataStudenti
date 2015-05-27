@@ -1,10 +1,10 @@
 #define MAX_STRLEN 30
-#define MAX_CLASSLEN 5
+#define MAX_CLASSLEN 4
 
 struct s_elemento{
-    char nome[MAX_STRLEN];
-    char cognome[MAX_STRLEN];
-    char classe[MAX_STRLEN];
+    char nome[MAX_STRLEN + 1];
+    char cognome[MAX_STRLEN + 1];
+    char classe[MAX_CLASSLEN + 1];
     unsigned int eta;
     struct s_elemento *prossimo;     
 };
